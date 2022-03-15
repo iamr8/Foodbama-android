@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">فودباما</string>
+    <string name="AppType">سفارش آنلاین غذا</string>
+    <string name="Username">شماره کاربری</string>
+    <string name="Password">گذرواژه</string>
+    <string name="FirstName">نام</string>
+    <string name="LastName">نام خانوادگی</string>
+    <string name="Register">ثبت نام</string>
+    <string name="Login">ورود به سامانه</string>
+    <string name="ForgotPassword">گذرواژه ام را فراموش کرده ام</string>
+    <string name="Back">بازگشت</string>
+    <string name="ResendCode">ارسال مجدد</string>
+    <string name="TermAndConditions">قوانین و مقررات</string>
+    <string name="Feedback">انتقادات و پیشنهادات</string>
+    <string name="District">منطقه</string>
+    <string name="Retry">دوباره امتحان کنید</string>
+    <string name="Food">غذا</string>
+    <string name="ServerError">خطا در برقراری ارتباط با سرور</string>
+    <string name="Phone">09364091209</string>
+    <string name="PendingOrders">پیگیری سفارش ها</string>
+    <string name="OrdersHistory">تاریخچه سفارش ها</string>
+    <string name="AddressesHistory">تاریخچه آدرس ها</string>
+    <string name="ChangePassword">تغییر گذرواژه</string>
+    <string name="ChooseEmailClient">یک برنامه واسط برای پست الکترونیکی انتخاب کنید</string>
+    <string name="RequestSupport">درخواست پشتیبانی</string>
+    <string name="Copyright">کلیه حقوق مادی و معنوی این اپلیکیشن به شرکت میشان کسب آتین ( با نام تجاری فودباما ) تعلق دارد.</string>
+    <string name="VerifyCode">تائید کد</string>
+    <string name="EstimatedTimeToVerify">زمان باقیمانده</string>
+    <string name="Logout">خروج از حساب کاربری</string>
+    <string name="Loading">در حال بارگذاری</string>
+    <string name="Restaurant">رستوران</string>
+    <string name="PleaseWait">لطفا شکیبا باشید</string>
+    <string name="RetryAfterCheck">پس از بررسی مجدد، دوباره امتحان کنید</string>
+    <string name="Version">نگارش</string>
+    <string name="SupportEmail">پشتیبانی از طریق پست الکترونیکی</string>
+    <string name="SupportPhone">پشتیبانی از طریق تماس تلفنی</string>
+    <string name="Home">خانه</string>
+    <string name="Search">جستجو</string>
+    <string name="Profile">پروفایل</string>
+    <string name="Hello">سلام فودبامایی عزیز!</string>
+<string name="MoreItem">موارد بیشتر</string>
+    <string name="ShowList">مشاهده لیست کامل</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/subjectCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="10dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtSliderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/irsans"
+            android:paddingBottom="10dp"
+            android:text="@string/Restaurant"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/stores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/btnMoreItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/irsans"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray"
+            tools:text="@string/MoreItem" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
